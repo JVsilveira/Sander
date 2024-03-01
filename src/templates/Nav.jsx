@@ -6,7 +6,7 @@ export default () => {
   return (
     <div className="nav">
       <nav className="nav-menu">
-        <Link to="/Home">
+        <Link to="/">
           <i className="nav-inicio"></i>Início
         </Link>
 

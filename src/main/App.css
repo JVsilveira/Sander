@@ -4,9 +4,10 @@
 }
 
 .App {
+  display: flex;
   height: 100vh;
   width: 100vw;
-  background-color: #001235;
+  background-color: #020c22;
   font-size: calc(10px + 2vmin);
   color: white;
 }
