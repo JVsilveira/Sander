@@ -1,0 +1,38 @@
+.menu {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.items {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.item {
+  flex: 0 0 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
